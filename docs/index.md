@@ -4,7 +4,7 @@ title: Introduction to Genomic Data Visualization in R
 
 # Introduction to R Programming
 
-- [Day 1](Day_1.md)
+- [Day 1](day_1.md)
 
 - [Day 2](trial.md)
 
