@@ -1,19 +1,18 @@
----
-layout: slides
----
-
-# Slide 1
-
-Content for slide 1
+Title
+=====
 
 ---
 
-# Slide 2
+## Slide One
 
-Content for slide 2
+* Apple
+* Banana
+* Carrot
 
 ---
 
-# Slide 3
+## Slide Two
 
-Content for slide 3
+- Dog
+- Cat
+- Frog
