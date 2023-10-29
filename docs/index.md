@@ -6,7 +6,7 @@ title: Introduction to Genomic Data Visualization in R
 
 - [Day 1](day_1.md)
 
-- Day 2 (Link to day_2.md)
+- [Day 2](trial.md)
 
 # Data Visualization Fundamentals in R
 
