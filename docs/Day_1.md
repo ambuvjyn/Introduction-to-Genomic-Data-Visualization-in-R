@@ -84,7 +84,7 @@ As mentioned above, RStudio is a very nice, but optional, IDE for R. All of the 
 
 Your RStudio window should look something like this:
 
-![Rstudio IDE](/assets/images/rstudio.png)
+![Rstudio IDE](./assets/images/rstudio.png)
 
 ---
 
@@ -92,7 +92,7 @@ Your RStudio window should look something like this:
 
 On the left hand side is the console. This is a command-line interface for R; you type a command, press enter to run it, and the result will appear below.
 
-![Console IDE](/assets/images/console.png)
+![Console IDE](./assets/images/console.png)
 
 ---
 
@@ -113,7 +113,7 @@ What happens if you press enter before you meant to?
 ---
 ### Running incomplete command
 
-![Console IDE](/assets/images/console2.png)
+![Console IDE](./assets/images/console2.png)
 
 If you press enter before finishing a command, the next line will begin with a + character. This lets you know that R is expecting more input.
 
@@ -133,9 +133,9 @@ Instead, a new value appears in the workspace browser.
 
 ---
 
-![Console IDE](/assets/images/console3.png)
+![Console IDE](./assets/images/console3.png)
 
-![Console IDE](/assets/images/environment.png)
+![Console IDE](./assets/images/environment.png)
 
 ---
 
@@ -143,7 +143,7 @@ The *<-* is a special pair of characters called the assignment operator that sto
 
 Since no object called “a” existed in R’s environment, R created a new object “a” to hold the result of the addition operation 1 + 1.
 
-![Console IDE](/assets/images/environment2.png)
+![Console IDE](./assets/images/environment2.png)
 
 ---
 
@@ -151,7 +151,7 @@ Since no object called “a” existed in R’s environment, R created a new obj
 
 The lower right pane contains the file browser, plot viewer, and help documentation, which we will be using frequently.
 
-![Console IDE](/assets/images/help.png)
+![Console IDE](./assets/images/help.png)
 
 ---
 
