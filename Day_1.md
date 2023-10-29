@@ -1,6 +1,10 @@
-# Course Purpose
+---
+marp: true
+---
+# Introduction to Genomic Data Visualization in R
 
 ---
+## Course Purpose
 
 ## The purpose of this course is to provide students with a comprehensive introduction to the field of genomic data visualization using the R programming language.
 
