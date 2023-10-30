@@ -3,6 +3,10 @@ marp: true
 title: Introduction to Genomic Data Visualization in R
 ---
 # Introduction to Genomic Data Visualization in R
+![Rstudio IDE](./assets/images/ambu_v.png)
+## Ambu Vijayan
+### Bioinformatician
+### BioLit, Thiruvananthapuram
 ---
 
 # Introduction to R Programming

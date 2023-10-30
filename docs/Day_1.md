@@ -74,6 +74,89 @@ The team behind RStudio are also the authors of a suite of R packages for data s
 
 ## RStudio and R notebooks
 
+To install R, go to https://cran.icts.res.in/
+
+![R1](./assets/images/R1.png)
+
+---
+## Click on install R for the first time.
+![R2](./assets/images/R2.png)
+
+---
+
+## Click Download R for Windows. Open the downloaded file.
+
+![R3](./assets/images/R3.png)
+
+---
+
+## Select the language you would like to use during the installation. Then click OK.
+
+![R4](./assets/images/R4.png)
+
+---
+
+## Click Next.
+
+![R5](./assets/images/R5.png)
+
+---
+
+## Select where you would like R to be installed. It will default to your Program Files on your C Drive. Click Next.
+
+![R6](./assets/images/R6.png)
+
+---
+
+## You can then choose which installation you would like.
+
+![R7](./assets/images/R7.png)
+
+---
+
+## (Optional) If your computer is a 64-bit, you can choose the 64-bit User Installation. Then click Next.
+
+![R8](./assets/images/R8.png)
+
+---
+
+## Then specify if you want to customized your startup or just use the defaults. Then click Next.
+
+![R9](./assets/images/R9.png)
+
+---
+
+## Then you can choose the folder that you want R to be saved within or the default if the R folder that was created.  Once you have finished, click Next.
+
+![R10](./assets/images/R10.png)
+
+---
+
+## You can then select additional shortcuts if you would like. Click Next.
+
+![R11](./assets/images/R11.png)
+
+---
+
+## Click Finish.
+
+![R12](./assets/images/R12.png)
+
+---
+
+## Download RStudio. Go to https://posit.co/
+
+
+![R13](./assets/images/R13.png)
+
+---
+
+## The RStudio installation wizard will pop-up. Click Next and go through the installation steps.
+
+![R14](./assets/images/R14.png)
+
+---
+
 > **Launch RStudio**
 
 ## 1.1 RStudio
