@@ -489,9 +489,23 @@ _Rows or columns corresponding to “TRUE” elements will be returned, while ro
 
 ---
 
+# Observe that the [] function requires 2 components
+
+## data[component1, component2]
+
+## data[row, columns]
+
+`birthweight[5, 10]`
+
+`birthweight[c(2,7,29), c(1,5)]`
+
+`birthweight[birthweight$length < 50, c(1,4:12,17,18)]`
+
+---
+
 ## 3.3.1 Subsetting a vector
 
-A vector, like a column of a data frame, can be subsetted using the [ operator with an index or another vector.
+A vector, like a column of a data frame, can be subsetted using the [] operator with an index or another vector.
 
 `birthweight$length[1]`
 
@@ -559,12 +573,12 @@ _Avoid this error : 1 + "1"_
 
 # The relational operators in R are:
 
- - > greater than
- - >= greater than or equal to
- - < less than
- - <= less than or equal to
- - == equal to
- - != not equal to
+ - ">" greater than
+ - ">=" greater than or equal to
+ - "<" less than
+ - "<=" less than or equal to
+ - "==" equal to
+ - "!=" not equal to
 
 ---
 ## Example using > relational operators
@@ -693,7 +707,23 @@ How can you solve this problem?
 
 ---
 
+# Basic functions
 
+`?table`
+
+`table(birthweight$geriatric.pregnancy, birthweight$low.birthweight)`
+
+![Console IDE](./assets/images/console24.png)
+
+---
+
+# Chi-squared test
+
+chisq.test() function requires either a matrix or two vectors as arguments.
+
+`?chisq.test`
+
+`chisq.test(birthweight$geriatric.pregnancy, birthweight$low.birthweight)`
 
 
 
