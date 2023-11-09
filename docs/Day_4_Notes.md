@@ -1,7 +1,7 @@
 ---
 marp: true
 ---
-## Day 3 : Data Visualization Fundamentals in R
+## Day 4 : Data Visualization Fundamentals in R
 
 ![Rstudio IDE](./assets/images/ambu_v.png)
 ## Ambu Vijayan
@@ -186,6 +186,10 @@ theme_bw()`
 # geom_point()
 
 ### Filter out smokers from birthdata
+
+`birthdata <- read.csv("birthweight.csv")`
+
+`birthdata$smoker <- (birthdata$smoker == "yes")`
 
 `filtered_data <- birthdata[birthdata$smoker == TRUE, ]`
 

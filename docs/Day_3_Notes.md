@@ -346,7 +346,7 @@ The rbind() function is used to combine two or more objects (vectors, matrices, 
 
 ## Add the new columns to the birthdata data frame
 
-`birthdata <- cbind(birthdata, date_df)`
+`birthdata <- cbind(birthdata, dates_df)`
 
 `View(birthdata)`
 
