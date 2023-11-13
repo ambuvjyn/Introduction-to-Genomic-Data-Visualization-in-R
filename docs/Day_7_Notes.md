@@ -142,6 +142,12 @@ And we can count how many genes are up- or down-regulated according to the diffe
 `top_genes`
 
 ---
+`install.packages("ggrepel")`
+
+`library(ggrepel)`
+
+ggrepel package, an extension of ggplot2 that provides functions for avoiding overplotting of text labels
+
 `plot3 <-  plot3 + geom_label_repel(data = top_genes, mapping = aes(logFC, -log(FDR,10), label = Genes), size = 2)`
 
 `plot3`

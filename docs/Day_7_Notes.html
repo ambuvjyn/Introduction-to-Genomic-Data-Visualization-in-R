@@ -102,6 +102,9 @@
 <p><code>top_genes</code></p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" lang="en-US">
+<p><code>install.packages(&quot;ggrepel&quot;)</code></p>
+<p><code>library(ggrepel)</code></p>
+<p>ggrepel package, an extension of ggplot2 that provides functions for avoiding overplotting of text labels</p>
 <p><code>plot3 &lt;-  plot3 + geom_label_repel(data = top_genes, mapping = aes(logFC, -log(FDR,10), label = Genes), size = 2)</code></p>
 <p><code>plot3</code></p>
 <h4 id="how-to-avoid-overlaps">How to avoid overlaps?</h4>
