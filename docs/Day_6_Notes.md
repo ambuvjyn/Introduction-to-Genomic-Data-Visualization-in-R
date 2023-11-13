@@ -81,25 +81,18 @@ text(mds1[,1], mds1[,2], labels(eurodist), cex = 0.9, xpd = TRUE)`
 `library(ggplot2)`
 
 ### Perform MDS 
-`mds1 <- cmdscale(eurodist, k = 2)`
+`mds1 = cmdscale(eurodist, k=2)`
 
 ### Create dataframe with coordinates and labels
-`df <- data.frame(x = mds1[,1], 
-                 y = mds1[,2],
-                 labels = rownames(mds1))`
+`df <- data.frame(x = mds1[,1], y = mds1[,2], labels = rownames(mds1))`
 
 ---
 
 ### Plot 
-`ggplot(df, aes(x, y, label = labels)) +
-  geom_text() +
-  ggtitle("MDS Plot") +
-  theme_classic() +
-  theme(axis.title.x = element_blank(),
-        axis.title.y = element_blank(),
-        axis.text.x = element_blank(),
-        axis.text.y = element_blank(),
-        axis.ticks = element_blank())`
+`ggplot(df, aes(x, y, label = labels)) + geom_text() + ggtitle("MDS Plot") + theme_classic() + theme(axis.title.x = element_blank(), axis.title.y = element_blank(), axis.text.x = element_blank(), axis.text.y = element_blank(), axis.ticks = element_blank())`
 
 ---
+
+![mds](./assets/images/mds.jpg)
+
 
